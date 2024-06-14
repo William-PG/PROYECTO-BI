@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ssasAlaspizzas</Database>
+    <Server>DESKTOP-D8HAFPI</Server>
+    <ConnectionString>Data Source=DESKTOP-D8HAFPI;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>aJEr20BznAxXBsxM+cVSThBb5Y8=13/6/2024 21:01:0413/6/2024 20:33:59</TimeStamp>
+        <ID>
+          <String>DwAlaspizzas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>WRW9GVATSH47RCwR0uxou0iBc18=13/6/2024 20:35:2613/6/2024 20:35:26</TimeStamp>
+        <ID>
+          <String>Dw Alaspizzas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pacKMA0XE2Dg5ooehvWT5bdcYJg=13/6/2024 20:35:3813/6/2024 20:35:38</TimeStamp>
+        <ID>
+          <String>Dim Categorias</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mWH64fNkm3FFOIh6YhHDtHXo/e4=13/6/2024 20:35:5213/6/2024 20:35:52</TimeStamp>
+        <ID>
+          <String>Dim Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vyWl8CwPIyrVhMFOxkH31piFpbQ=13/6/2024 20:36:0213/6/2024 20:36:02</TimeStamp>
+        <ID>
+          <String>Dim Direcciones</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Pb7jHrSq3lM7nTc5OD9uVnd6LTo=13/6/2024 20:36:1613/6/2024 20:36:16</TimeStamp>
+        <ID>
+          <String>Dim Empleados</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CDzz84i5FyD4D8pJ+W6mIwiEapE=13/6/2024 20:36:4813/6/2024 20:36:48</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/MAXMmptJRgAjpYx88WMzFTkaCg=13/6/2024 20:38:2413/6/2024 20:38:24</TimeStamp>
+        <ID>
+          <String>Dim Productos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>u0SbmOnW+lUm+gIUkVWE05qafkg=13/6/2024 20:38:3513/6/2024 20:38:35Jwbiuh6NsQx2NAtlVw8v6MtmQys=13/6/2024 20:38:3513/6/2024 20:38:35</TimeStamp>
+        <ID>
+          <String>Dw Alaspizzas</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>eYx9v61hxGB0gTbT4GWwb0tyjRs=13/6/2024 20:29:3113/6/2024 20:29:31</TimeStamp>
+      <ID>
+        <String>ssasAlaspizzas</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-06-14T03:01:21.266667Z</LastDeployed>
+</DeploymentSnapshot>
